@@ -6,9 +6,7 @@ const taskList = document.getElementById('task-list');
 
 let tasks = JSON.parse(localStorage.getItem('proTasksV2')) || [];
 
-/* =========================
-   🌙 DARK / LIGHT MODE
-========================= */
+/* 🌙 DARK / LIGHT MODE */
 
 function toggleTheme() {
     const html = document.documentElement;
@@ -43,9 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateUI(); // also load tasks on start
 });
 
-/* =========================
-   TASK SYSTEM
-========================= */
+/* TASK SYSTEM */
 
 function updateUI() {
 
